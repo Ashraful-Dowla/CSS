@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.green-box{
+    width: 400px;
+    height: 400px;
+    background: green;
+    position: relative;
+/*
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+*/
+}
+
+.red-box{
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.m{
+    border: 3px solid red;
+    padding: 5px;
+    margin-top: 10px;
+    background: red;
+    position: sticky;
+    top: 0;
+}
+
+p{
+    //padding-bottom: 1000px;
+    border: 3px solid red;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+}

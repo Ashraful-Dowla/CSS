@@ -1,0 +1,24 @@
+/*
+    justify-content -> horizontal
+    align-items -> vertical
+    
+*/
+.flex-container{
+    display: flex;
+    //justify-content: center; 
+    align-items: stretch; /*center flex-start flex-end*/
+    //flex-wrap: wrap;
+    //flex-direction: column-reverse;
+    background: red;
+    padding: 10px;
+    height: 400px;
+}
+
+.flex-item{
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    width: 100px;
+}

@@ -1,0 +1,16 @@
+a:hover{
+    color: red;
+    background: yellow;
+}
+
+h2:nth-child(2){
+    background: green;
+}
+
+h2:first-child{
+    background: red;
+}
+
+h2:last-child{
+    background: orange;
+}

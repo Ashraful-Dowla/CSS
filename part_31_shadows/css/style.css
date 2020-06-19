@@ -1,0 +1,31 @@
+h2{
+    font-size: 90px;
+    text-align: center;
+    //text-shadow: 2px 2px 5px red; 
+    text-shadow: -1px 0 red, 1px 0 green, 0 2px  yellow, 0 -2px orange;
+}
+
+.ashraf{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.ashraf img{
+    width: 100%;
+}
+
+.container{
+    padding: 10px;
+}
+
+.ashraf h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.ashraf:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,1);
+}

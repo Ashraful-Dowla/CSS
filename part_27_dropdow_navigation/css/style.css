@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    background: yellow; 
+    overflow: hidden;
+}
+
+ul li{
+    float: left;
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 20px 20px;
+    display: inline-block;
+}
+
+ul li a:hover{
+    background: green;
+}
+
+.dropdown-content{
+    background: red;
+    box-shadow: 0 5px 5px 0 red;
+    display: none;
+    position: absolute;
+    min-width: 200px;
+}
+
+.dropdown-content a{
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background: orange;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}

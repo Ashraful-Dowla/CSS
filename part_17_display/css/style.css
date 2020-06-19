@@ -1,0 +1,11 @@
+h2{
+    display: inline-block; // inline-block, block, none
+}
+
+span{
+    text-align: center;
+}
+
+ul li{
+    display: inline;
+}

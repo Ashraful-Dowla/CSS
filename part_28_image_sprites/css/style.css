@@ -1,0 +1,44 @@
+.icons{
+    overflow: hidden;
+}
+
+.icons ul{
+    margin: 0;
+    padding: 0;
+}
+
+.icons ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.icons ul li:last-child{
+    margin-right: 0px;
+}
+
+.icons ul li a{
+    background: url('../assets/icons.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 47px;
+    height: 46px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.icons ul li:hover:nth-child(1) a{
+    background-position: 0 -47px;
+    transition: 1s;
+}
+
+.icons ul li:nth-child(2) a{
+    background-position: -185px 0;
+}
+
+.icons ul li:nth-child(2):hover a{
+    background-position: -185px -47px;
+}
+

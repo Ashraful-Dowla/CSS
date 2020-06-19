@@ -1,0 +1,19 @@
+/*
+p::first-letter{
+    color: red;
+    font-size: 40px;
+}
+*/
+
+p::first-line{
+    color: red;
+}
+
+h2::before{
+    //content: 'Ashraful';
+    content: url('../assets/baby.jpg');
+}
+
+h2::after{
+    content: url('../assets/baby.jpg');
+}
